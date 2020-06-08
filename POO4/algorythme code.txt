@@ -1,0 +1,50 @@
+/*
+        $tableau;
+        $nbPersonne;
+        $nbPlace;
+
+        construct(nbPlaces)[
+
+            initialiser le tableau[]
+            intialiser la valeur de nombre de place 
+            initialiser le nombre de personnes
+        ]
+
+        embarquer($personne:Personne){
+            Si rechercher($personne)= -1{
+                retourne -1
+            }
+            Si $nbPersonne < nbPlaces -1{
+                ajouter $personne dans $tableau[] a la suite
+                $nbPersonne prend +1
+            }
+            sinon{
+                retourne -1
+            }
+        }
+
+        rechercher( $nomRecherche: string ) : entier {
+            $i -> entier compteur
+            $position <- tableau[$i]
+            $position<- $nomRecherche
+
+            Pour $i allant de 0 à $nbPersonne, $i++{
+
+            }
+            sinon{
+                retourne NULL
+            }
+        }
+
+        debarquer($nom:string) : Personne {
+
+            si recherche($nom) =-1{
+                retourne -1
+            }
+            sinon {
+                retourne la position dans le tableau
+                
+               libérer dans le tableau la position trouver                 
+            }
+            
+            */
